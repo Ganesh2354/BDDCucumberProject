@@ -1,0 +1,27 @@
+<Object name="Login_Page">
+    <Def type="ParentObject">
+        <Description />
+    </Def>
+    <Object name="Email_TxtTb">
+    <Def type="ChildObject">
+        <Description>
+                 <xpath>//input[@name="email"]</xpath>
+        </Description>
+    </Def>
+    </Object>
+
+    <Object name="Password_TxtTb">
+    <Def type="ChildObject">
+        <Description>
+                 <xpath>//input[@name="pass"]</xpath>
+        </Description>
+    </Def>
+    </Object>
+    <Object name="Login_Btn">
+    <Def type="ChildObject">
+        <Description>
+                 <xpath>//button[@name="login"]</xpath>
+        </Description>
+    </Def>
+    </Object>
+</Object>
